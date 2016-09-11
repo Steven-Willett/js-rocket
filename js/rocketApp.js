@@ -14,6 +14,17 @@ var changeState = function(state) {
             };
         }, 500);               
     } else if (state == 3) {
-        
+        var success = setTimeout(function(){
+            var randomNumber = Math.round(Math.random()*10);
+            
+            console.log('Random number: ', randomNumber);
+            
+            if(randomNumber > 5){ // Success
+                chagneState(4);
+            } else { // Failure
+                changeState(5);
+            }
+            
+        }, 2000);
     }
 }
