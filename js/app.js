@@ -28,5 +28,9 @@ var car = {
 
 
 var doCoolStuff = function() {
-    document.getElementById('cool').classNAme = 'cool red';
+    // Checking current class name
+    var currentClassName = document.getElementById('cool').className;
+    
+    // Change class name
+    document.getElementById('cool').className = 'cool red';
 } 
