@@ -25,5 +25,3 @@ var car = {
         };
     }
 };
-
-console.log('Hello there friends!');
