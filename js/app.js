@@ -25,3 +25,8 @@ var car = {
         };
     }
 };
+
+
+var doCoolStuff = function() {
+    document.getElementById('cool').classNAme = 'cool red';
+} 
