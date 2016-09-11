@@ -12,7 +12,7 @@ var changeState = function(state) {
             if (countdownNumber <= 0) {            
                 changeState(3);
             };
-        }, 1000);               
+        }, 500);               
     } else if (state == 3) {
         
     }
