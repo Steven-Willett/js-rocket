@@ -31,6 +31,10 @@ var doCoolStuff = function() {
     // Checking current class name
     var currentClassName = document.getElementById('cool').className;
     
-    // Change class name
-    document.getElementById('cool').className = 'cool red';
+    // Conditionally apply applicable class name(s)
+    if(currentClassName == 'cool'){
+         document.getElementById('cool').className = 'cool red';    
+    } else {
+         document.getElementById('cool').className = 'cool';   
+    }
 } 
