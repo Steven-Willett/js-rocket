@@ -35,6 +35,34 @@ var doSomething = function() {
 var number1 = 10;
 var number2 = 100;
 
-if (number1 > number 2) {
-    alert('Number 1 is greater thatn number 2.');
+if (number1 == 10) {
+    // Do something
+} 
+
+if (number1 > number2) {
+    // Do something
 }
+
+if (number1 < number2) {
+    // Do something
+}
+
+if (number1 >= number2) {
+    // Do something
+}
+
+if (number1 <= number2) {
+    // Do something
+}
+
+if (number1 == 10 && number2 == 100) {
+    // Do something
+} else if (number1 == 10 || number2 == 100) {
+    // Do something
+} else {
+    // Do something or nothing.
+}
+
+
+
+
