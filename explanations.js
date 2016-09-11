@@ -17,6 +17,9 @@ richObject.firstName
 
 
 // ### FUNCTIONS ### //
+var fullName = function(firstname,lastname) {
+    return firstname + ' ' + lastname;
+}
 var area = function (width, height) {
 	return width * height;
 }
