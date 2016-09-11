@@ -1,40 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JS Rocket</title>
-    <script type="text/javascript">
-        var car = {
-            make: 'VW',
-            model: 'Polo',
-            colour: 'blue',
-            isTurnedOn: false,
-            numberOfWheels: 4,
-            seats: [
-                'seat 1', 
-                'seat 2', 
-                'seat 3', 
-                'seat 4'
-            ],
-            tunrOn: function() {
-                this.isTurnedOn = true;
-            },
-            fly: function() {
-                alert('fly');
-            },
-            switchCar: function(isOn) {
-                console.log('turn car ' + isOn);
-                if(isOn == true) {
-                  this.isTurnedOn = true;  
-                } else {
-                    this.isTurnedOn = false;
-                };
-            }
-        };
-        
-        console.log('Hello there friends!');
-    </script>
+    <title>JS Rocket</title>    
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
 </head>
 <body>
     <h1>Hello js rocket</h1>
+    
+    <script type="text/javascript" src="js/app.js"></script>
 </body>    
 </html>
