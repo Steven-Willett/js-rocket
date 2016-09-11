@@ -20,7 +20,7 @@ var changeState = function(state) {
             console.log('Random number: ', randomNumber);
             
             if(randomNumber > 5){ // Success
-                chagneState(4);
+                changeState(4);
             } else { // Failure
                 changeState(5);
             }
