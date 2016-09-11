@@ -30,3 +30,11 @@ var whatIsMyFavColor = function() {
 var doSomething = function() {
 	console.log("do something!");
 }
+
+// ### CONDITIONAL SATEMENTS (IF, ELSE IF, ELSE) ### //
+var number1 = 10;
+var number2 = 100;
+
+if (number1 > number 2) {
+    alert('Number 1 is greater thatn number 2.');
+}
